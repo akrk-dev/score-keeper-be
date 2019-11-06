@@ -18,9 +18,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_KEY
+    secure: JwtwL1aCVe6cCeStYAP4KJoS/aAHg+SNE/O7xsqDO7sc+r0g7v3JAx5C20fQuVw4WYAunzUyspQUqn6D8G1wP9hk2Njf5z6kkiIdcqUcdW1z6kv9rcWomaUNx1Kt9WpkpXhrJQ6dTHw9jCrRcY1+sNxewweMLb2FyR/cGJ0N/YcJ6FGT3iJjkkZonfKdzlgUJJ3Aa92ucpbvHRwgu3HofwMMJRzOAh0rx44NL1GVWyeuOb70uYFoFq2KMTP9UwfZLgLE00YrOsDsZ76zCOfB0hQ6p95YueXzNrez5IPhC0FlcNt1T75Kbffss9FbBKucJdnCbsYQbXw2/YN7ASW94n7T7VD12o1JQABqHyJC9BhNcdtTl36SubNS27i4cC1UtYFW/Y/MCzRHgyncDJof60IKVxPYBsp76DQVoRrFm5ok2LNZMy2PT+8XXCBhtAsqEf6IkhgRsXvFp8XIeGNlgdky8bLTVQqpRC9CtkKRvmLx/L9lmNkNZfBt+ZiCV7UHPYVQmj9tpa0Pi/9nE+WLjUg2e8ps6Rt0uuKHsGpPKhgAa33LwNf9XQ1v7jELQU8CoHwINdbYpIekmHgP0wxIiHVT9Dvh8l1TJTGCPMA/owmmXibHpKPfve+BfQWMAgr1NLbfhiCuV4HGUELpNWWW/VreB4PXuEHr3UYVnCObWWw=
   app: score-keeper-be
-  on:
-    repo:  akrk-dev/score-keeper-be 
   on:
     branch: master
